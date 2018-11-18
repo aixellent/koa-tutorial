@@ -1,0 +1,20 @@
+{
+  "name": "koa-app",
+  "version": "0.0.1",
+  "description": "koa tutorial app",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "tutorial",
+    "koa"
+  ],
+  "author": "aixellent",
+  "license": "ISC",
+  "dependencies": {
+    "global": "^4.3.2",
+    "koa": "^2.6.2",
+    "nodemon": "^1.18.6"
+  }
+}
