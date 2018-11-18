@@ -21,7 +21,7 @@ app.use(async (ctx, next) => {
 
 // response
 app.use(async ctx => {
-   ctx.body = `Hello World ${app.env} ${app.proxy} ${app.subdomainOffset} ${app.keys}`
+   ctx.body = `Hello World ${app.env} ${app.proxy} ${app.subdomainOffset} ${app.keys} ${JSON.stringify(ctx.request)} ${JSON.stringify(ctx.response)}`
 })
 
 
